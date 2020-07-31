@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+}
+body{
+    font-size:14px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 300;
+    background-image: 
+}
+
+.bg-modal{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.8);
+    position:absolute;
+    top:0;
+    justify-content:center;
+    align-items:center;
+    display:none;
+}
+
+.name-label{
+}
+
+.text-about{
+    position: absolute;
+}
+
+.background-video{
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    z-index:-1;
+}
+
+.wistia_embed{
+    height:1080px;
+    position:relative;
+    width:1920px;
+    position:fixed;
+    z-index:-1;
+}
+
+ul{
+    letter-spacing: 0.1em;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.button-cancel{
+    padding: 20px;
+    border: 1px solid;
+}
+.button-update{
+    padding: 20px;
+    border: 1px solid;
+}
+
+.modal-title{
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.modal-content{
+    width: 500px;
+    height: auto;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+}
+
+.name-label{
+    margin-right: 10px;
+    align-self: end;
+}
+
+.ip-container{
+    display: grid;
+    grid-template-columns: min-content auto;
+}
+.pe-container{   
+}
+
+.parameter-container{
+    margin: 15px 0;
+}
+
+.parameter-container{
+    display: grid;
+    grid-template-columns: min-content auto;
+}
+
+.parametres-container{
+    margin: 15px auto;
+    width: 75%;
+}
+
+input{
+}
+
+.toolbar-header{
+    display:flex;
+    background: #000;
+    /*position: absolute;
+    z-index: 1;*/
+}
+
+.title{
+    margin: 2;
+    padding: 10px;
+    padding: 10px 30px;
+    color: rgb(0, 199, 0);
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    font-size: 1.2em;
+    line-height: 1em;
+    border:1px solid rgb(0, 199, 0);
+}
+
+li{
+    margin: auto 0;
+    padding: 10px;
+}
+
+.tool-bar{
+    position:relative;
+}
+
+ul{   
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.dropdown, .dropdown2{
+    background: #505050;
+}
+ul li{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border: 1px solid black;
+}
+
+ul li a:not(.incomplete):hover{
+    border-bottom: 1px solid rgb(0, 199, 0);;
+}
+ul li:hover .dropdown{
+    visibility: visible;
+    top: 100%;
+    z-index: 0;
+}
+
+.company-name{
+    margin: auto 0;
+    padding: 20px;
+    margin-left: auto;
+    color: white;
+    font-size: 0.8em;
+    text-align: right;
+    letter-spacing: 0.1em;
+}
+
+.incomplete{
+    color:#828282;
+}
+
+.titulo{
+    font-size:1.2em;
+    margin-bottom:20px;
+}
+
+/* BOTAO */
+span {
+    cursor: pointer;
+  }
+  a {
+    position: relative;
+    overflow: hidden;
+  }
+  span:hover a {
+    color: red;
+  }
+  a + input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
